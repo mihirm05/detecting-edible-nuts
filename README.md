@@ -8,4 +8,4 @@ This project was completed as a part of my Computer Vision course. It aims at de
 
 # Description
 
-A detailed presentation has been provided in the file Presentation.pdf  
+A detailed explanation has been provided in the file Presentation.pdf  
