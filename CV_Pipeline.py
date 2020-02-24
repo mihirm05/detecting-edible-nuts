@@ -4,9 +4,9 @@ import sys
 import matplotlib.pyplot as plt 
 import random 
 
-sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+#sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
 import cv2 as cv
-sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
+#sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
 import argparse
 
 parser = argparse.ArgumentParser(description='This program shows how to use background subtraction methods provided by \
@@ -127,7 +127,7 @@ with tf.Session() as sess:
                     plt.text(int(detection_point[0]),int(detection_point[1]),'Haselnut',fontsize=30,color='b')
                 
             number_of_detected_objects = 0
-            #plt.savefig('/home/mihir/Desktop/Studies/Semester_3/CV/Data/testing_output/output_frame.png') 
+           
             
 plt.show()
 
@@ -139,7 +139,7 @@ plt.show()
             #haselnut1 = plt.scatter([190],[20],s=1,c='b',label='Haselnut1')
             #plt.legend((peanut,walnut,haselnut),('Peanut','Walnut','Haselnut'),scatterpoints=1)
             #plt.legend(['Peanut','Walnut','Haselnut'])
-#plt.savefig('/home/mihir/Desktop/Studies/Semester_3/CV/Data/testing_output/output_frame.png')
+
 
 
 
